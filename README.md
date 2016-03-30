@@ -2,7 +2,7 @@
 Simple Android demos on the use of fragments, asynctasks, threads, runnables, handlers, thread pool and services
 
 ### Purpose
-For the study on multithreading on Android.
+For the study of multitasking and multithreading on Android.
 
 ### Topics included
 - The use of fragment as a host to background threads that may be running independently;
@@ -19,10 +19,10 @@ For the study on multithreading on Android.
 
 #### 2. Study of background tasks
 
-- <b>DemoAsynctaskActivity:</b> In this activity, an internal fragment is used to host an AsyncTask. The internal fragment provides a suitable UI for the AsyncTask to interact with. The <i>AsyncTask</i> is a very specific form of thread for running intensive background jobs, such as disk access and internet. This demo shows the use of the AsyncTask to initialize the LRU disk cache. 
-- <b>DemoTimerActivity:</b> This activity implements a counter that increments itself at regular intervals. For such a task, the use of the <i>Timer + TimerTask</i> and <i>Runnable + Handler</i> combination is preferred. The (Timer + TimerTask) takes care of the scheduling of event while the (Runnable + Handler) is responsible for invoking UI update.
+- <b>DemoAsynctaskActivity:</b> In this activity, an internal fragment is used to host an <i>AsyncTask</i>. The internal fragment provides a suitable UI for the AsyncTask to interact with. The <i>AsyncTask</i> is a very specific form of thread for running intensive background jobs, such as disk access and internet. This demo shows the use of the AsyncTask to initialize the LRU disk cache. 
+- <b>DemoTimerActivity:</b> This activity implements a counter that increments itself at regular intervals. For such a task, the use of the <i>Timer + TimerTask</i> and <i>Runnable + Handler</i> combination is preferred. The <i>Timer + TimerTask</i> takes care of the scheduling of event while the <i>Runnable + Handler</i> is responsible for invoking UI update.
 - <b>DemoQuietTimerActivity:</b> This activity is similar to the previous one, except that the UI update is performed when the background thread completes. 
-- <b>DemoRunnableActivity:</b> This activity provides an alternative implementation of the counter incrementation. The Timer and TimerTask are replaceable by the basic (Runnable + Handler) pair. However, this implementation would require more care.
+- <b>DemoRunnableActivity:</b> This activity provides an alternative implementation of the counter incrementation. The Timer and TimerTask are replaceable by the basic <i>Runnable + Handler</i> pair. However, this implementation would require more care.
 - <b>DemoThreadActivity:</b> This activity is similar to the previous one except that the Runnable is replaced by a Thread.
 
 #### 3. Study of multithreading
