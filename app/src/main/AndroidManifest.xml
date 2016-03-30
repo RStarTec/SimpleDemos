@@ -1,0 +1,36 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rstar.mobile.simpledemos">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".DemoVisibleFragmentActivity"></activity>
+        <activity android:name=".DemoInvisibleFragmentActivity"></activity>
+        <activity android:name=".DemoInternalFragmentActivity"></activity>
+        <activity android:name=".DemoAsynctaskActivity"></activity>
+        <activity android:name=".DemoTimerActivity"></activity>
+        <activity android:name=".DemoQuietTimerActivity"></activity>
+        <activity android:name=".DemoRunnableActivity"></activity>
+        <activity android:name=".DemoThreadActivity"></activity>
+        <activity android:name=".DemoMultiThreadActivity"></activity>
+        <activity android:name=".DemoMultiThreadSyncActivity"></activity>
+        <activity android:name=".DemoThreadPoolActivity"></activity>
+        <activity android:name=".DemoServiceActivity"></activity>
+
+        <service android:name=".TimerService"></service>
+    </application>
+
+
+</manifest>

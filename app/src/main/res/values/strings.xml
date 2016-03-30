@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AndroidDemos</string>
+
+    <string name="demo_fragment_visible">Visible Fragment (text)</string>
+    <string name="demo_fragment_invisible">Invisible Fragment (text to speech)</string>
+    <string name="demo_fragment_internal">Internal Fragment (visible)</string>
+
+    <string name="demo_threading_asynctask">Asynctask (disk cache)</string>
+    <string name="demo_threading_timer">Timer and TimerTask (counter)</string>
+    <string name="demo_threading_quietTimer">Timer and TimerTask (Time\'s up)</string>
+    <string name="demo_threading_runnable">Handler and Runnable (counter)</string>
+    <string name="demo_threading_thread">Handler and Thread (counter)</string>
+    <string name="demo_threading_multiThread">Multithread (race to update UI)</string>
+    <string name="demo_threading_multiThreadSync">Multithread (race for a lock)</string>
+    <string name="demo_threading_threadPool">Thread pool (race to update UI)</string>
+
+    <string name="demo_service">Service (counter)</string>
+
+    <string name="visible_fragment">Visible Fragment</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
